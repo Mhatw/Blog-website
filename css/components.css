@@ -210,10 +210,10 @@ nav .nav-container li > a {
   text-transform: capitalize;
 }
 
-nav .nav-container > a:hover {
+nav .nav-container li > a:hover {
   background-color: var(--pink_50);
 }
-nav .nav-container > a:focus{
+nav .nav-container li > a:focus{
   outline: 2px solid var(--pink_800);
   outline-offset: 2px;
 }
@@ -233,7 +233,7 @@ nav .nav-container > a:focus{
 /* ------------------------------presentacion------------------------------ */
 
 .presentacion{
-  width: 100vw;
+  width: 100%;
 }
 
 .presentacion div{
@@ -249,7 +249,7 @@ nav .nav-container > a:focus{
   color: var(--pink_600);
 }
 .presentacion div p{
-  font-weight: 600;
+  font-weight: 400;
   width: 100%;
   margin-top: 1rem;
 }
@@ -282,4 +282,26 @@ nav .nav-container > a:focus{
   font-weight: 500;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+/* ------------------------------endlarticle__card------------------------------ */
+
+/* ------------------------------footer------------------------------ */
+
+footer {
+  padding: 48px 0;
+  background: var(--stone_600);
+
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+}
+.footer h3 {
+  color: var(--white);
+  margin-bottom: 32px;
+  text-align: center;
+}
+.footer button {
+  margin: auto;
 }

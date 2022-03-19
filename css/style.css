@@ -21,11 +21,6 @@ section > p {
   width: 100%;
 }
 
-footer{
-  height: 68px;
-  background: var(--stone_200);
-  color: var(--gray_900);
-}
 
 .debug {
   border: 2px solid red;
@@ -39,11 +34,16 @@ img{
 }
 
 /* ------------home------------ */
-.home {
-  width: 100vw;
-}
-.larticle{
+body{
+  margin: 0;
   width: 100%;
+}
+main{
+  width: auto;
+}
+
+.larticle{
+  width: auto;
   background: var(--gray_100);
   padding: 48px 0;
   margin-bottom: 1rem;
@@ -54,7 +54,7 @@ img{
 }
 .larticle__body{
   margin-top: 1rem;
-  width: 100%;
+  width: auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(328px, 1fr));
   gap: 2rem;
