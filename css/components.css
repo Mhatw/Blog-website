@@ -286,12 +286,50 @@ nav .nav-container li > a:focus{
 
 /* ------------------------------endlarticle__card------------------------------ */
 
+/* ------------------------------skills__card------------------------------ */
+
+.skills__cards{
+  display: flex;
+  gap: 19.2px;
+  margin: 0 16px;
+}
+.skills__cards img{
+  margin: 3.2px;
+  width: 26px;
+  height: 26px;
+}
+
+
+
+.skills__info p{
+  margin-top: 12px;
+  color: var(--gray_900);
+}
+
+/* ------------------------------endskills__card------------------------------ */
+
+/* ------------------------------hobbies__card------------------------------ */
+
+.hobbies__card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.minipading{
+  padding: 8px;
+}
+.hobbies__card p{
+  margin-top: 10px;
+  color: var(--gray_900);
+  text-align: center;
+}
+/* ------------------------------endhobbies__card------------------------------ */
 /* ------------------------------footer------------------------------ */
 
 footer {
   padding: 48px 0;
   background: var(--stone_600);
-
 }
 .footer{
   display: flex;

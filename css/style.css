@@ -25,13 +25,6 @@ section > p {
 .debug {
   border: 2px solid red;
 }
-svg path {
-  fill: black;
-}
-img{
-  color: black;
-  fill: black;
-}
 
 /* ------------home------------ */
 body{
@@ -58,4 +51,35 @@ main{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(328px, 1fr));
   gap: 2rem;
+}
+/* ------------endhome------------ */
+
+/* ------------about------------ */
+
+.skills{
+  padding: 48px 0;
+}
+.skills__body{
+  /* width: auto; */
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  gap: 2rem;
+}
+
+.hobbies{
+  background-color: var(--gray_100);
+  padding: 48px 0;
+}
+.hobbies__body{
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+@media (max-width: 768px){
+  .hobbies__body{
+    grid-template-columns: 1fr;
+  }
 }
