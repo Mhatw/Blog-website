@@ -5,7 +5,6 @@
 @import "colors.css";
 
 
-
 p {
   color: var(--gray_700);
 }
@@ -30,4 +29,33 @@ footer{
 
 .debug {
   border: 2px solid red;
+}
+svg path {
+  fill: black;
+}
+img{
+  color: black;
+  fill: black;
+}
+
+/* ------------home------------ */
+.home {
+  width: 100vw;
+}
+.larticle{
+  width: 100%;
+  background: var(--gray_100);
+  padding: 48px 0;
+  margin-bottom: 1rem;
+}
+.larticle__header p{
+  margin-top: 0.25rem;
+  color: var(--gray_900);
+}
+.larticle__body{
+  margin-top: 1rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(328px, 1fr));
+  gap: 2rem;
 }
