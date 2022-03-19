@@ -1,0 +1,216 @@
+/* atomic */
+
+/* for links in p  */
+.link{
+  color: var(--pink_700);
+  font-size: 1.125rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+/* for strongs in p */
+.strong{
+  color: var(--gray_900);
+  font-size: 1.125rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+/* ------------------------Article elements------------------------ */
+
+.art-h1{
+  margin-bottom: 32px;
+  color: var(--gray_900);
+}
+
+.art-h2{
+  margin-top: 56px;
+  margin-bottom: 24px;
+}
+
+.art-h3{
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+.p{
+  margin: 24px 0;
+}
+
+.li{
+  margin: 1rem 0;
+  color: var(--gray_700)
+}
+
+.blockquote{
+  margin: 24px 0;
+  border-left: 4px solid var(--pink_400);
+  background: #FAFAF9;
+  line-height: 32px;
+  font-style: italic;
+  margin: 24px 0;
+  padding-left: 22px;
+}
+
+
+.image{
+  margin: 32px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+}
+.image figcaption {
+  color: var(--gray_500);
+  font-weight: 400;
+  margin-top: 1rem;
+}
+/* ------------------------End Article elements------------------------ */
+
+
+/* ------------------------button------------------------ */
+
+.btn{
+  border: none;
+  cursor: pointer;
+  padding: 0.75em 1em;
+  border-radius: 0.5em;
+  text-decoration: none;
+  font-family: var(--inter);
+  font-size: 1em;
+  line-height: 1em;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* btn size */
+
+.btn-sm{
+  font-size: 0.875em;
+  padding: 0.5em 0.75em;
+}
+.btn-lg{
+  font-size: 1em;
+  padding: 0.875em 1.5em;
+}
+.btn-full{
+  font-size: 1.125em;
+  padding: 0.75em auto;
+  width: 100%;
+}
+
+
+
+/* color default */
+.btn-default{
+  color: var(--gray_900);
+  background-color: var(--gray_200);
+  transition: .25s;
+}
+.btn-default:hover{
+  background-color: var(--gray_300);
+}
+.btn-default:active{
+  background-color: var(--gray_400);
+}
+.btn-default:focus{
+  background-color: var(--gray_200);
+  outline: 2px solid var(--gray_400);
+  outline-offset: 2px;
+}
+.btn-default:disabled{
+  background-color: var(--gray_200);
+  cursor: default;
+  opacity: 60%;
+}
+
+/* color primary */
+.btn-primary{
+  color: var(--white);
+  background-color: var(--pink_600);
+  transition: .25s;
+}
+.btn-primary:hover{
+  background-color: var(--pink_700);
+}
+.btn-primary:active{
+  background-color: var(--pink_800);
+}
+.btn-primary:focus{
+  background-color: var(--pink_600);
+  outline: 2px solid var(--pink_800);
+  outline-offset: 2px;
+}
+.btn-primary:disabled{
+  background-color: var(--pink_600);
+  cursor: default;
+  opacity: 60%;
+}
+/* color secondary */
+.btn-secondary{
+  color: var(--white);
+  background-color: var(--stone_500);
+  transition: .25s;
+}
+.btn-secondary:hover{
+  background-color: var(--stone_600);
+}
+.btn-secondary:active{
+  background-color: var(--stone_800);
+}
+.btn-secondary:focus{
+  background-color: var(--stone_500);
+  outline: 2px solid var(--stone_800);
+  outline-offset: 2px;
+}
+.btn-secondary:disabled{
+  background-color: var(--stone_500);
+  cursor: default;
+  opacity: 60%;
+}
+/* ------------------------ end button------------------------ */
+/* ------------------------------header------------------------------ */
+
+header{
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  background: var(--gray_100);
+}
+header div {
+  width: 100%;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav .nav-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+nav .nav-container > button {
+  margin-left: 1rem;
+}
+nav .nav-container > a {
+  padding: 0.25rem 0.5rem;
+  margin-left: 1rem;
+  color: var(--pink_600);
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: capitalize;
+  
+}
+
+nav .nav-container > a:hover {
+  background-color: var(--pink_50);
+}
+nav .nav-container > a:focus{
+  outline: 2px solid var(--pink_800);
+  outline-offset: 2px;
+}
+
+/* ------------------------------end header------------------------------ */

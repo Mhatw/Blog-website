@@ -1,0 +1,33 @@
+@import "reset.css";
+@import "layout.css";
+@import "components.css";
+@import "typography.css";
+@import "colors.css";
+
+
+
+p {
+  color: var(--gray_700);
+}
+
+section > p {
+  margin: 24px 0;
+}
+
+.blockquote > p {
+  margin-left: 18px;
+}
+.image > img {
+  object-fit: fill;
+  width: 100%;
+}
+
+footer{
+  height: 68px;
+  background: var(--stone_200);
+  color: var(--gray_900);
+}
+
+.debug {
+  border: 2px solid red;
+}

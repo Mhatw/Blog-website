@@ -1,0 +1,111 @@
+
+/* ------ typography------ */
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+:root{
+  --inter: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --mont: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+}
+
+body{
+  font-family: var(--inter);
+}
+
+/* text */
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: var(--gray_700);
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: var(--gray_700);
+}
+
+.text-md{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--gray_700);
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--gray_700);
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: var(--gray_700);
+}
+
+/* weight */
+
+.t-regular{
+  font-weight: 400;
+}
+.t-medium{
+  font-weight: 500;
+}
+.t-semibold{
+  font-weight: 600;
+}
+
+/* overline variant */
+.t-overline{
+  word-spacing: 0.125 rem;
+  text-transform: uppercase;
+}
+
+/* monospace variant  */
+.t-mono{
+  font-family: 'Anonymous Pro', monospace; 
+}
+
+/* headings */
+
+.head-xxl{
+  font-family: var(--mont);
+  font-size: 3.75rem;
+  line-height: 3.75rem;
+  color: var(--gray_900);
+}
+
+.head-xl{
+  font-family: var(--mont);
+  font-size: 3rem;
+  line-height: 3rem;
+  color: var(--gray_900);
+}
+
+.head-lg{
+  font-family: var(--mont);
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  color: var(--gray_900);
+}
+
+.head-md{
+  font-family: var(--mont);
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color: var(--gray_900);
+}
+
+.head-sm{
+  font-family: var(--mont);
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: var(--gray_900);
+}
+
+.head-xs{
+  font-family: var(--mont);
+  font-size: 1.25rem;
+  line-height: 1 .75rem;
+  color: var(--gray_900);
+}
