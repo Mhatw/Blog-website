@@ -306,7 +306,7 @@ nav .nav-container li > a:focus{
   height: 26px;
 }
 .skills__cards img:hover{
-  filter: hue-rotate(280deg);
+  filter: hue-rotate(30deg);
 }
 
 
