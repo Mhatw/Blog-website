@@ -447,6 +447,7 @@ nav .nav-container li > a:focus{
   outline: none;
 }
 .contact__input select{
+  background-color: white;
   background-image: url(/src/arr.svg);
   background-position: 96% 50% ;
   background-repeat: no-repeat;

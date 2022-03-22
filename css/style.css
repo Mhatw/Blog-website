@@ -166,7 +166,12 @@ main{
 
 .contact__body{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  grid-template-columns: 1fr 1fr;;
   gap: 2rem;
   margin: 2rem 0;
+}
+@media (max-width: 768px){
+  .contact__body{
+    grid-template-columns: 1fr;
+  }
 }
