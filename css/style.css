@@ -175,3 +175,108 @@ main{
     grid-template-columns: 1fr;
   }
 }
+
+/* ------------end contact------------ */
+
+/* ------------calencli------------ */
+
+.project__presentation{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  gap: 2rem;
+}
+.project__left{
+  width: 50%;
+}
+.project__presentation img{
+  width: 50%;
+}
+.project__left p{
+  margin: 20px 0px 40px 0px;
+}
+.project__how{
+  background-color: var(--gray_100);  
+}
+.how{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.how_body{
+  display: flex;
+  gap: 2rem;
+  flex-wrap: nowrap;
+  margin-top: 48px;
+}
+.how__card h4{
+  margin: 20px 0 8px 0;
+}
+
+.icon_how{
+  background-color: var(--pink_600);
+  padding: 10px;
+}
+.icon_how svg path{
+  fill: var(--white);
+}
+.team{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.team__body{
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.team__cards{
+  display: flex;
+  flex-direction: column;
+
+}
+.team__cards h5{
+  margin: 16px 0 9px 0;
+}
+.team__cards img{
+  object-fit:fill;
+  width: 100%;
+  padding: 0;
+}
+.social{
+  display: flex;
+  gap: 22px
+}
+
+@media (max-width: 768px){
+  .project__presentation{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .project__left{
+    width: 100%;
+  }
+  .project__presentation img{
+    width: 100%;
+  }
+  .project__left h2 {
+    text-align: center;
+  }
+  .project__left button {
+    width: 100%;
+  }
+}
+@media (max-width: 658px){
+  
+  .how_body{
+    flex-wrap: wrap;
+  }
+  .team__body{
+    flex-wrap: wrap;
+  }
+}
