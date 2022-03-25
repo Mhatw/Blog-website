@@ -39,7 +39,7 @@ main{
   width: auto;
   background: var(--gray_100);
   padding: 48px 0;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 .larticle__header p{
   margin-top: 0.25rem;
@@ -250,6 +250,9 @@ main{
 .social{
   display: flex;
   gap: 22px
+}
+.social svg:hover path{
+  fill: var(--pink_600);
 }
 
 @media (max-width: 768px){

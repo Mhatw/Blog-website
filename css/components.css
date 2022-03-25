@@ -399,32 +399,32 @@ nav .nav-container li > a:focus{
   background-repeat: no-repeat;
 }
 .form-icon[type=text] {
-  background-image: url(/src/vector.svg);
+  background-image: url(../src/vector.svg);
   padding-left: 2.5rem;
 }
 .form-icon[type=text]:focus {
-  background-image: url(/src/vectorhover.svg);
+  background-image: url(../src/vectorhover.svg);
 }
 .form-iconcel[type=text] {
-  background-image: url(/src/cel.svg);
+  background-image: url(../src/cel.svg);
   padding-left: 2.5rem;
 }
 .form-iconcel[type=text]:focus {
-  background-image: url(/src/celhover.svg);
+  background-image: url(../src/celhover.svg);
 }
 .form-iconemp[type=text] {
-  background-image: url(/src/empresa.svg);
+  background-image: url(../src/empresa.svg);
   padding-left: 2.5rem;
 }
 .form-iconemp[type=text]:focus {
-  background-image: url(/src/empresahover.svg);
+  background-image: url(../src/empresahover.svg);
 }
 .form-icon[type=email] {
-  background-image: url(/src/email.svg);
+  background-image: url(../src/email.svg);
   padding-left: 2.5rem;
 }
 .form-icon[type=email]:focus {
-  background-image: url(/src/emailhover.svg);
+  background-image: url(../src/emailhover.svg);
 }
 .contact__input select {
   padding: 0.5rem 0.75rem;
@@ -448,7 +448,7 @@ nav .nav-container li > a:focus{
 }
 .contact__input select{
   background-color: white;
-  background-image: url(/src/arr.svg);
+  background-image: url(../src/arr.svg);
   background-position: 96% 50% ;
   background-repeat: no-repeat;
   background-size: 10px;
